@@ -1,3 +1,5 @@
+ANURAG SEDAI
+
 # Lilly Technical Challenge Documentation Template
 
 *This documentation template serves as a place for you to discuss how you approached this challenge, any issues you faced & how you overcame them, or any other points that you feel would be relevant for the interviewers to know. The text in italics is here to guide you - feel free to remove it once you fill out each section!*
