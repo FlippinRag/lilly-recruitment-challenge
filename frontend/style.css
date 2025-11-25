@@ -2,31 +2,143 @@
 
 /* CSS Reset */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 /* Body styles. DO NOT REMOVE OR EDIT UNLESS ABSOLUTELY NECESSARY */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    padding: 0;
-    margin: 0;
-    color: #333;
-    padding-top: 30px;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 0;
+  margin: 0;
+  color: #333;
+  padding-top: 30px;
 }
 
 /* Disclaimer styles. DO NOT REMOVE OR EDIT UNLESS ABSOLUTELY NECESSARY */
 .disclaimer {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 0.5rem;
-    z-index: 1000;
-    font-weight: bold;
-    height: 30px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 0.5rem;
+  z-index: 1000;
+  font-weight: bold;
+  height: 30px;
 }
 
 /* ---- Your custom styles below ---- */
+
+header {
+  text-align: center;
+  padding: 2rem;
+  background-color: #5a67d8;
+  color: white;
+}
+
+main {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.addSection {
+  background: white;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+}
+
+#addMedicineForm {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.formGroup {
+  flex: 1;
+  min-width: 200px;
+}
+
+.formGroup input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+#addMedicineForm button {
+  padding: 0.5rem 1.5rem;
+  background-color: #5a67d8;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  align-self: flex-end;
+}
+
+#formMessage {
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.listSection {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.sectionHeader {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.sectionHeader h2 {
+  margin: 0;
+  color: #5a67d8;
+}
+
+.medicineCount {
+  background: #eee;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+}
+
+#medicineCount {
+  color: #5a67d8;
+  font-weight: bold;
+}
+
+#medicinesList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.medicineCard {
+  background: #f9f9f9;
+  padding: 1rem;
+  border-radius: 8px;
+  border-left: 3px solid #5a67d8;
+}
+
+.statsGroup {
+  display: flex;
+  gap: 1rem;
+}
+
+.averagePrice {
+  background: #e8f4f8;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  margin: 0;
+  font-weight: bold;
+}
+
+#averagePrice {
+  color: #5a67d8;
+  font-weight: bold;
+}
